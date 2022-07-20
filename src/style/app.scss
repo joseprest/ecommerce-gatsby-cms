@@ -1,0 +1,18 @@
+//Fonts
+@import "fonts/fonts";
+
+//Configuration and helpers
+@import "utils/variables", "utils/mixins", "utils/placeholders";
+
+//Base Stuff
+@import "base/base", "base/typography";
+
+// Components
+@import "components/buttons", "components/accordion", "components/modal";
+
+// Layout
+@import "layout/header", "layout/footer";
+
+//Page styles
+@import "page/home", "page/products", "page/recipes.scss", "page/about",
+  "page/where_to_buy", "page/contact", "page/privacy";
